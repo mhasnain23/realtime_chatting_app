@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://realtime-chatting-app-eta.vercel.app/"],
+    origin: ["http://localhost:5173"],
   },
 });
 
